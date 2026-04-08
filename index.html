@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Giacenze Magazzino</title>
+  <title>Giacenze magazzino NuovaSRL</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -26,7 +26,7 @@
       box-shadow: 0 2px 12px rgba(0,0,0,.25);
     }
 
-    header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: .5px; }
+    header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: .5px; }
     header h1 span { color: #4cc9f0; }
 
     .meta {
@@ -132,10 +132,11 @@
       background: white;
       border-radius: 12px;
       box-shadow: 0 1px 4px rgba(0,0,0,.07);
-      overflow: hidden;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
-    table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+    table { width: 100%; min-width: 480px; border-collapse: collapse; font-size: .88rem; }
 
     thead th {
       background: #1a1a2e;
@@ -200,7 +201,7 @@
 <body>
 
 <header>
-  <h1>Giacenze <span>Magazzino Nuova Prova SRL</span></h1>
+  <h1>Giacenze magazzino <span>NuovaSRL</span></h1>
   <div class="meta">
     <span class="badge"><span class="dot"></span> Live</span>
     <span id="last-update">—</span>
